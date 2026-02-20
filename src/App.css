@@ -41,6 +41,8 @@
   --navbar-text: #1a1a2e;
   --footer-bg: rgba(255, 255, 255, 0.7);
   --footer-text: #3a3a5c;
+  --hero-name-color: #c00018;
+  --hero-title-color: #e01030;
   --terminal-bg: rgba(255, 255, 255, 0.9);
   --terminal-output: #8899aa;
   --input-bg: rgba(255, 255, 255, 0.6);
@@ -79,6 +81,8 @@
   --navbar-text: #e8eaf0;
   --footer-bg: rgba(10, 14, 26, 0.7);
   --footer-text: #7a8394;
+  --hero-name-color: #ff9aa3;
+  --hero-title-color: #ff6b6b;
   --terminal-bg: rgba(10, 14, 26, 0.9);
   --terminal-output: #607080;
   --input-bg: rgba(10, 14, 26, 0.6);
@@ -525,16 +529,14 @@ img {
   font-weight: 900;
   line-height: 1.1;
   margin-bottom: 0.5rem;
-  background: linear-gradient(135deg, #1a1a2e, #c00018, #e01030);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--hero-name-color);
+  text-shadow: 0 6px 18px rgba(0,0,0,0.24), 0 1px 0 rgba(255,255,255,0.02);
   animation: floatBobble 4s ease-in-out infinite;
 }
 
 .hero-title {
   font-size: 1.3rem;
-  color: var(--accent-green);
+  color: var(--hero-title-color);
   font-weight: 600;
   margin-bottom: 1rem;
   font-family: var(--font-mono);

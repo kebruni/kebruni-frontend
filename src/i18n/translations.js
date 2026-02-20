@@ -18,7 +18,7 @@ export const translations = {
     },
 
     welcome: {
-      greeting: 'Сәлем, мен',
+      greeting: 'Привет, я',
       name: 'Нұрбек Жарылқасынов',
       title: 'System Administrator / DevOps Engineer',
       description:
