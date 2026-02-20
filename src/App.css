@@ -42,7 +42,7 @@
   --footer-bg: rgba(255, 255, 255, 0.7);
   --footer-text: #3a3a5c;
   --hero-name-color: #c00018;
-  --hero-title-color: #e01030;
+  --hero-title-color: #1a1a2e;
   --terminal-bg: rgba(255, 255, 255, 0.9);
   --terminal-output: #8899aa;
   --input-bg: rgba(255, 255, 255, 0.6);
@@ -82,7 +82,7 @@
   --footer-bg: rgba(10, 14, 26, 0.7);
   --footer-text: #7a8394;
   --hero-name-color: #ff9aa3;
-  --hero-title-color: #ff6b6b;
+  --hero-title-color: #d4d4d4;
   --terminal-bg: rgba(10, 14, 26, 0.9);
   --terminal-output: #607080;
   --input-bg: rgba(10, 14, 26, 0.6);
